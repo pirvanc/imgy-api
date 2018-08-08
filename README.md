@@ -34,11 +34,21 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Unit test coverage: 100%
+
+Run tests:
+
+
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+For deployment using AWS cloud formation, use the following commands:
+
+```
+make
+
+serverless deploy --verbose --force
+```
 
 ## Built With
 
